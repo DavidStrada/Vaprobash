@@ -18,9 +18,6 @@ fi
 # (Required to remove conflicts with PHP PPA due to partial Apache upgrade within it)
 
 
-# Update Again
-sudo apt-get update
-
 # Install Apache
 sudo apt-get install -y apache2  libapache2-mod-php5
 
