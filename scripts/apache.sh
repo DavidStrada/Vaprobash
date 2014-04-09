@@ -16,13 +16,13 @@ fi
 
 # Add repo for latest FULL stable Apache
 # (Required to remove conflicts with PHP PPA due to partial Apache upgrade within it)
-sudo add-apt-repository -y ppa:ondrej/apache2
+
 
 # Update Again
 sudo apt-get update
 
 # Install Apache
-sudo apt-get install -y apache2-mpm-event libapache2-mod-fastcgi
+sudo apt-get install -y apache2  libapache2-mod-php5
 
 echo ">>> Configuring Apache"
 
