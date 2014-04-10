@@ -24,7 +24,7 @@ sudo apt-get install -y apache2  libapache2-mod-php5
 echo ">>> Configuring Apache"
 
 # Apache Config
-sudo a2enmod rewrite actions ssl
+sudo a2enmod rewrite actions ssl headers
 curl -L https://gist.githubusercontent.com/fideloper/2710970/raw/vhost.sh > vhost
 sudo chmod guo+x vhost
 sudo mv vhost /usr/local/bin
