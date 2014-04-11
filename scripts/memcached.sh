@@ -2,7 +2,6 @@
 
 # Install Memcached
 
-sudo apt-get install -y php5-memcache
 sudo apt-get install -y php-pear
 sudo apt-get install -y build-essential
 sudo pecl install memcache
